@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Deth - Developer Portfolio</title>
+  </head>
+  <body>
+    <!-- Animated particles -->
+    <div class="particles">
+      <div class="particle" style="left: 10%; animation-delay: 0s"></div>
+      <div class="particle" style="left: 20%; animation-delay: 1s"></div>
+      <div class="particle" style="left: 30%; animation-delay: 2s"></div>
+      <div class="particle" style="left: 40%; animation-delay: 3s"></div>
+      <div class="particle" style="left: 50%; animation-delay: 4s"></div>
+      <div class="particle" style="left: 60%; animation-delay: 5s"></div>
+      <div class="particle" style="left: 70%; animation-delay: 0.5s"></div>
+      <div class="particle" style="left: 80%; animation-delay: 1.5s"></div>
+      <div class="particle" style="left: 90%; animation-delay: 2.5s"></div>
+    </div>
+
+    <!-- Code rain effect -->
+    <div class="code-rain" id="codeRain"></div>
+
+    <header>
+      <a href="#" class="logo">{ DETH }</a>
+      <nav>
+        <a class="contact_tele" href="https://t.me/KEMDETH" target="_blank"
+          >Contact</a
+        >
+        <a href="#" class="actives">Home</a>
+        <a href="#"
+          >Education
+          <select id="education-roles" name="roles" class="styled-select">
+            <option value="CS_Degree">Computer Science</option>
+            <option value="Self_Taught">Self-Taught</option>
+            <option value="Bootcamp">Coding Bootcamp</option>
+          </select>
+        </a>
+        <a href="#"
+          >Skills
+          <select id="skills-roles" name="roles" class="styled-select">
+            <option value="frontend">React, Vue, Angular</option>
+            <option value="backend">Node.js, Python, Java</option>
+            <option value="database">MongoDB, PostgreSQL</option>
+            <option value="cloud">AWS, Docker, K8s</option>
+            <option value="ai">TensorFlow, PyTorch</option>
+            <option value="blockchain">Solidity, Web3</option>
+          </select>
+        </a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home_img">
+        <div class="developer-avatar">
+          <img src="5x5 (2).jpg" alt="DETH" />DETH
+        </div>
+        <!-- <div class="developer-avatar">DETH</div> -->
+        <div class="code-showcase">
+          <div class="terminal-header">$ deth --info</div>
+          <div class="terminal-content">
+            <div class="command">function developer() {</div>
+            <div class="output">return "innovative";</div>
+            <div class="command">}</div>
+          </div>
+        </div>
+      </div>
+      <div class="home_content">
+        <h1>Hi I'm <span>Deth</span></h1>
+        <h3 class="typing_text">I'm a<span></span></h3>
+        <p>
+          A passionate full-stack developer who loves creating innovative
+          solutions with cutting-edge technologies. Specialized in building
+          scalable applications, AI/ML integration, and blockchain development.
+          Always eager to tackle new challenges and push the boundaries of
+          what's possible in tech.
+        </p>
+
+        <div class="terminal">
+          <div class="terminal-header">deth@developer:~$ cat skills.json</div>
+          <div class="terminal-content">
+            <div class="command">{</div>
+            <div class="output">
+              "languages": ["JavaScript", "Python", "Solidity", "Go"],
+            </div>
+            <div class="output">
+              "frameworks": ["React", "Node.js", "Django", "FastAPI"],
+            </div>
+            <div class="output">
+              "specialties": ["AI/ML", "Blockchain", "Cloud Architecture"],
+            </div>
+            <div class="output">
+              "passion": "Building the future, one line at a time"
+            </div>
+            <div class="command">}</div>
+          </div>
+        </div>
+
+        <div class="social_icon">
+          <a href="https://github.com/kemdeth" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/deth-kem-b0958b342/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/deth_codes" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://t.me/KEMDETH" target="_blank">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </div>
+        <div class="btn">
+          <a
+            href="#https://www.canva.com/design/DAGW8O0Pu84/5hwkYm_tIxUqwNt_1MBLGw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0"
+            target="_blank"
+            >View My Work</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
